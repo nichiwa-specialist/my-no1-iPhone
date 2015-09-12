@@ -14,6 +14,7 @@
 		2B810CF41B75E46900F40EF3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B810CF31B75E46900F40EF3 /* Images.xcassets */; };
 		2B810CF71B75E46900F40EF3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B810CF51B75E46900F40EF3 /* LaunchScreen.xib */; };
 		2B810D031B75E46A00F40EF3 /* WorldBlogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B810D021B75E46A00F40EF3 /* WorldBlogTests.swift */; };
+		2B810D0D1B75E74B00F40EF3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B810D0C1B75E74B00F40EF3 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		2B810CFC1B75E46A00F40EF3 /* WorldBlogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldBlogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B810D011B75E46A00F40EF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B810D021B75E46A00F40EF3 /* WorldBlogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldBlogTests.swift; sourceTree = "<group>"; };
+		2B810D0C1B75E74B00F40EF3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B810D0D1B75E74B00F40EF3 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +64,7 @@
 		2B810CDB1B75E46900F40EF3 = {
 			isa = PBXGroup;
 			children = (
+				2B810D0C1B75E74B00F40EF3 /* MapKit.framework */,
 				2B810CE61B75E46900F40EF3 /* WorldBlog */,
 				2B810CFF1B75E46A00F40EF3 /* WorldBlogTests */,
 				2B810CE51B75E46900F40EF3 /* Products */,
@@ -293,7 +297,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -330,7 +334,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -411,6 +415,7 @@
 				2B810D081B75E46A00F40EF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B810D091B75E46A00F40EF3 /* Build configuration list for PBXNativeTarget "WorldBlogTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				2B810D0B1B75E46A00F40EF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
