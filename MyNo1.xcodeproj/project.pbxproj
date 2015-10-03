@@ -65,8 +65,8 @@
 			isa = PBXGroup;
 			children = (
 				2B810D0C1B75E74B00F40EF3 /* MapKit.framework */,
-				2B810CE61B75E46900F40EF3 /* WorldBlog */,
-				2B810CFF1B75E46A00F40EF3 /* WorldBlogTests */,
+				2B810CE61B75E46900F40EF3 /* MyNo1 */,
+				2B810CFF1B75E46A00F40EF3 /* MyNo1Tests */,
 				2B810CE51B75E46900F40EF3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -80,7 +80,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2B810CE61B75E46900F40EF3 /* WorldBlog */ = {
+		2B810CE61B75E46900F40EF3 /* MyNo1 */ = {
 			isa = PBXGroup;
 			children = (
 				2B810CE91B75E46900F40EF3 /* AppDelegate.swift */,
@@ -91,6 +91,7 @@
 				2B810CEB1B75E46900F40EF3 /* WorldBlog.xcdatamodeld */,
 				2B810CE71B75E46900F40EF3 /* Supporting Files */,
 			);
+			name = MyNo1;
 			path = WorldBlog;
 			sourceTree = "<group>";
 		};
@@ -102,12 +103,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		2B810CFF1B75E46A00F40EF3 /* WorldBlogTests */ = {
+		2B810CFF1B75E46A00F40EF3 /* MyNo1Tests */ = {
 			isa = PBXGroup;
 			children = (
 				2B810D021B75E46A00F40EF3 /* WorldBlogTests.swift */,
 				2B810D001B75E46A00F40EF3 /* Supporting Files */,
 			);
+			name = MyNo1Tests;
 			path = WorldBlogTests;
 			sourceTree = "<group>";
 		};
