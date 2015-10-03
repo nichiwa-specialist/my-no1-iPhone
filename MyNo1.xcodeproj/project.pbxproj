@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2B810CE41B75E46900F40EF3 /* WorldBlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldBlog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B810CE41B75E46900F40EF3 /* MyNo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyNo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B810CE81B75E46900F40EF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B810CE91B75E46900F40EF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B810CEC1B75E46900F40EF3 /* WorldBlog.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WorldBlog.xcdatamodel; sourceTree = "<group>"; };
@@ -36,7 +36,7 @@
 		2B810CF11B75E46900F40EF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B810CF31B75E46900F40EF3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2B810CF61B75E46900F40EF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		2B810CFC1B75E46A00F40EF3 /* WorldBlogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldBlogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B810CFC1B75E46A00F40EF3 /* MyNo1.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyNo1.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B810D011B75E46A00F40EF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B810D021B75E46A00F40EF3 /* WorldBlogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldBlogTests.swift; sourceTree = "<group>"; };
 		2B810D0C1B75E74B00F40EF3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -74,8 +74,8 @@
 		2B810CE51B75E46900F40EF3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2B810CE41B75E46900F40EF3 /* WorldBlog.app */,
-				2B810CFC1B75E46A00F40EF3 /* WorldBlogTests.xctest */,
+				2B810CE41B75E46900F40EF3 /* MyNo1.app */,
+				2B810CFC1B75E46A00F40EF3 /* MyNo1.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,9 +122,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2B810CE31B75E46900F40EF3 /* WorldBlog */ = {
+		2B810CE31B75E46900F40EF3 /* MyNo1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2B810D061B75E46A00F40EF3 /* Build configuration list for PBXNativeTarget "WorldBlog" */;
+			buildConfigurationList = 2B810D061B75E46A00F40EF3 /* Build configuration list for PBXNativeTarget "MyNo1" */;
 			buildPhases = (
 				2B810CE01B75E46900F40EF3 /* Sources */,
 				2B810CE11B75E46900F40EF3 /* Frameworks */,
@@ -134,14 +134,14 @@
 			);
 			dependencies = (
 			);
-			name = WorldBlog;
+			name = MyNo1;
 			productName = WorldBlog;
-			productReference = 2B810CE41B75E46900F40EF3 /* WorldBlog.app */;
+			productReference = 2B810CE41B75E46900F40EF3 /* MyNo1.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2B810CFB1B75E46A00F40EF3 /* WorldBlogTests */ = {
+		2B810CFB1B75E46A00F40EF3 /* MyNo1Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2B810D091B75E46A00F40EF3 /* Build configuration list for PBXNativeTarget "WorldBlogTests" */;
+			buildConfigurationList = 2B810D091B75E46A00F40EF3 /* Build configuration list for PBXNativeTarget "MyNo1Tests" */;
 			buildPhases = (
 				2B810CF81B75E46A00F40EF3 /* Sources */,
 				2B810CF91B75E46A00F40EF3 /* Frameworks */,
@@ -152,9 +152,9 @@
 			dependencies = (
 				2B810CFE1B75E46A00F40EF3 /* PBXTargetDependency */,
 			);
-			name = WorldBlogTests;
+			name = MyNo1Tests;
 			productName = WorldBlogTests;
-			productReference = 2B810CFC1B75E46A00F40EF3 /* WorldBlogTests.xctest */;
+			productReference = 2B810CFC1B75E46A00F40EF3 /* MyNo1.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -170,6 +170,7 @@
 				TargetAttributes = {
 					2B810CE31B75E46900F40EF3 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = P39M68XTJ6;
 					};
 					2B810CFB1B75E46A00F40EF3 = {
 						CreatedOnToolsVersion = 6.2;
@@ -177,7 +178,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2B810CDF1B75E46900F40EF3 /* Build configuration list for PBXProject "WorldBlog" */;
+			buildConfigurationList = 2B810CDF1B75E46900F40EF3 /* Build configuration list for PBXProject "MyNo1" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -190,8 +191,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2B810CE31B75E46900F40EF3 /* WorldBlog */,
-				2B810CFB1B75E46A00F40EF3 /* WorldBlogTests */,
+				2B810CE31B75E46900F40EF3 /* MyNo1 */,
+				2B810CFB1B75E46A00F40EF3 /* MyNo1Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -240,7 +241,7 @@
 /* Begin PBXTargetDependency section */
 		2B810CFE1B75E46A00F40EF3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2B810CE31B75E46900F40EF3 /* WorldBlog */;
+			target = 2B810CE31B75E46900F40EF3 /* MyNo1 */;
 			targetProxy = 2B810CFD1B75E46A00F40EF3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -348,9 +349,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = WorldBlog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = nichiwa.MyNo1;
+				PRODUCT_NAME = MyNo1;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos8.4;
 			};
 			name = Debug;
@@ -359,9 +365,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = WorldBlog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = nichiwa.MyNo1;
+				PRODUCT_NAME = MyNo1;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos8.4;
 			};
 			name = Release;
@@ -380,8 +391,8 @@
 				);
 				INFOPLIST_FILE = WorldBlogTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorldBlog.app/WorldBlog";
+				PRODUCT_NAME = MyNo1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyNo1.app/MyNo1";
 			};
 			name = Debug;
 		};
@@ -395,15 +406,15 @@
 				);
 				INFOPLIST_FILE = WorldBlogTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorldBlog.app/WorldBlog";
+				PRODUCT_NAME = MyNo1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyNo1.app/MyNo1";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2B810CDF1B75E46900F40EF3 /* Build configuration list for PBXProject "WorldBlog" */ = {
+		2B810CDF1B75E46900F40EF3 /* Build configuration list for PBXProject "MyNo1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B810D041B75E46A00F40EF3 /* Debug */,
@@ -412,7 +423,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2B810D061B75E46A00F40EF3 /* Build configuration list for PBXNativeTarget "WorldBlog" */ = {
+		2B810D061B75E46A00F40EF3 /* Build configuration list for PBXNativeTarget "MyNo1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B810D071B75E46A00F40EF3 /* Debug */,
@@ -421,7 +432,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2B810D091B75E46A00F40EF3 /* Build configuration list for PBXNativeTarget "WorldBlogTests" */ = {
+		2B810D091B75E46A00F40EF3 /* Build configuration list for PBXNativeTarget "MyNo1Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B810D0A1B75E46A00F40EF3 /* Debug */,
