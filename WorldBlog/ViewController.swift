@@ -24,7 +24,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
 //        mapView.delegate = self
         
         // 緯度と経度の設定(中心位置)
-        var location: CLLocationCoordinate2D = CLLocationCoordinate2DMake(34.66806, 135.501122)
+        let location: CLLocationCoordinate2D = CLLocationCoordinate2DMake(34.66806, 135.501122)
         mapView.setCenterCoordinate(location, animated: true)
         
 //        let myLat: CLLocationDegrees = 34.66806
